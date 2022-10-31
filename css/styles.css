@@ -145,6 +145,7 @@ header {
 /* HERO */
 .hero {
   max-width: 1600px;
+  margin: 0 auto;
   height: 600px;
   padding: 200px 0;
 
@@ -369,10 +370,11 @@ header {
 }
 .footer-flex-box {
   display: flex;
-  gap: 70px;
   align-items: baseline;
 }
-
+.logo-adress-box {
+  margin-right: 70px;
+}
 .footer-contacts-list {
   display: flex;
   flex-direction: column;
